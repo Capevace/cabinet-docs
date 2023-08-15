@@ -1,0 +1,37 @@
+site_name: Cabinet
+site_url: https://laravel-cabinet.dev
+site_author: Lukas Mateffy
+copyright: Copyright © 2023 Lukas Mateffy
+nav:
+  - Getting started: index.md
+  - Options: about.md
+  - Building your own sources: about.md
+theme:
+  name: material
+  repo_url: https://github.com/capevace/cabinet
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      primary: amber
+      accent: deep-orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/capevace/cabinet
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/capevace
+    - icon: fontawesome/solid/globe
+      link: https://laravel-cabinet.dev
+    - icon: fontawesome/solid/user-astronaut
+      link: https://mateffy.me
